@@ -1,0 +1,98 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  .room-detail-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .room-banner {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .room-banner img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    filter: brightness(70%);
+  }
+  
+  .room-title-overlay {
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+    color: white;
+  }
+  
+  .room-title-overlay h1 {
+    font-size: 36px;
+    margin: 0;
+  }
+  
+  .room-title-overlay p {
+    font-size: 18px;
+    margin-top: 5px;
+  }
+  
+  .room-description, .room-facilities {
+    background-color: white;
+    padding: 25px;
+    margin-top: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  }
+  
+  .room-description h2, .room-facilities h2 {
+    margin-bottom: 15px;
+    color: #2c3e50;
+  }
+  
+  .room-facilities ul {
+    list-style: none;
+    padding: 0;
+    columns: 2;
+    gap: 20px;
+  }
+  
+  .room-facilities li {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .room-actions {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .btn-book, .btn-outline {
+    text-decoration: none;
+    padding: 12px 25px;
+    margin: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    display: inline-block;
+  }
+  
+  .btn-book {
+    background-color: #cfa144;
+    color: white;
+  }
+  
+  .btn-outline {
+    border: 2px solid #cfa144;
+    color: #cfa144;
+  }
+  
+  .btn-outline:hover {
+    background-color: #cfa144;
+    color: white;
+  }
+  
